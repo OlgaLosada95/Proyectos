@@ -1,0 +1,37 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Ubuntu', sans-serif;
+    background-color: gray:
+
+}
+
+.botones {
+
+    padding: 5px;
+
+    background-color: #04A2F7;
+    border-radius: 20px;
+
+    margin-top: 20px;
+
+}
+
+.botones a {
+
+    text-decoration: none;
+
+    font-size: 20px;
+    color: white;
+
+}
