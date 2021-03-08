@@ -1,18 +1,10 @@
 addEventListener('DOMContentLoaded', () => {
-	const btn_menu = document.querySelector('.icono')
+	const btn_menu = document.querySelector('.hamburguesa')
 	if (btn_menu){
 		btn_menu.addEventListener('click', () => {
-			const menu_items = document.querySelector('.menu_items')
+			const menu_items = document.querySelector('.botonera')
 			menu_items.classList.toggle('show')
 
-			/*Esconder primero el boton*/
-			btn_menu.classList.toggle('esconder')
-			const btn_menu_cerrar = document.querySelector('.x')
-			if (btn_menu_cerrar){
-				btn_menu_cerrar.classList.toggle('btn_menu_mostrar')
-
-
-			}
 		})
 	}
 })

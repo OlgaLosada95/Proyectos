@@ -77,6 +77,16 @@ body {
 
 }
 
+
+.botonera.show {
+
+	top: 76px;
+	right: 0;
+	width: 25%;
+	height: 25%;
+
+}
+
 .interacciones {
 
 	display: flex;
@@ -121,13 +131,6 @@ body {
 
 	opacity: 0.75;
 	color: black;
-
-}
-
-.botonera.show {
-
-	top: 15vh;
-	right: 0;
 
 }
 
@@ -434,12 +437,14 @@ hr {
 	.botonera {
   
 		position: fixed;
-		width: 100vw;
-		background: #004141;
+		width: 35%;
+		right: 0;
 		top: -100vh;
 		text-align: center;
 		transition: all .4s;
 		flex-direction: column;
+
+		background-color: #FFC46A;
 
 	}
 
@@ -449,6 +454,28 @@ hr {
 
 	}
 
+	.botonera a {
+
+		color: white;
+
+	}
+
+	.botonera a:hover {
+
+		background-color: #FCB240;
+		width: 100%;
+
+	}
+
+	.botonera.show {
+
+		width: 35%;
+		right: 0;
+		top: 77px;
+
+		background-color: #FFC46A;
+
+	}
 
 }
 
@@ -471,6 +498,16 @@ hr {
 
 		display: grid;
 		grid-template-columns: 1fr;
+
+	}
+
+	.botonera.show {
+
+		width: 35%;
+		right: 0;
+		top: 117px;
+
+		background-color: #FFC46A;
 
 	}
 

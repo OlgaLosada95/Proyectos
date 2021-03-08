@@ -83,6 +83,16 @@ body {
 
 }
 
+
+.botonera.show {
+
+	top: 76px;
+	right: 0;
+	width: 25%;
+	height: 25%;
+
+}
+
 .interacciones {
 
 	display: flex;
@@ -128,12 +138,6 @@ body {
 
 }
 
-.botonera.show {
-
-	top: 15vh;
-	right: 0;
-
-}
 
 .elementos i:hover {
 
@@ -433,12 +437,14 @@ main {
 	.botonera {
   
 		position: fixed;
-		width: 100vw;
-		background: #004141;
+		width: 35%;
+		right: 0;
 		top: -100vh;
 		text-align: center;
 		transition: all .4s;
 		flex-direction: column;
+
+		background-color: #FFC46A;
 
 	}
 
@@ -448,6 +454,28 @@ main {
 
 	}
 
+	.botonera a {
+
+		color: white;
+
+	}
+
+	.botonera a:hover {
+
+		background-color: #FCB240;
+		width: 100%;
+
+	}
+
+	.botonera.show {
+
+		width: 35%;
+		right: 0;
+		top: 77px;
+
+		background-color: #FFC46A;
+
+	}
 
 }
 
@@ -473,6 +501,16 @@ main {
 
 	}
 
+	.botonera.show {
+
+		width: 35%;
+		right: 0;
+		top: 117px;
+
+		background-color: #FFC46A;
+
+	}
+
 }
 
 @media screen and (max-width: 800px) {
@@ -489,41 +527,5 @@ main {
 		grid-template-columns: 1fr;
 
 	}
-
-}
-
-@media screen and (max-width: 520px) {
-
-	.primero {
-
-		height: 300px;
-
-	}
-
-	.segundo {
-
-		height: 300px;
-
-	}
-
-	.tercero {
-
-		height: 300px;
-
-	}
-
-	.cuarto {
-
-		height: 300px;
-
-	}
-
-	.quinto {
-
-		height: 300px;
-
-	}
-	
-
 
 }
