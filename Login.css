@@ -1,0 +1,115 @@
+* {
+
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+	
+	background: url('Imagenes/fondo.jpg');
+    background-repeat: no-repeat;
+	background-size: cover;
+
+	font-family: 'Handlee', cursive;
+	line-height: 1.5;
+
+	width: 100vw;
+	height: 100vh;
+
+    position: relative;
+    bottom: 0;
+    
+}
+
+.contenedor {
+
+	width: 100%;
+	height: 100%;
+
+}
+
+.contenido {
+
+	max-width: 1500px;
+	margin: auto;
+
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.85);
+
+}
+
+.icono {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	height: 400px;
+}
+
+.icono i {
+
+	color: #545454;
+
+}
+
+.icono span {
+
+	font-size: 60px;
+	color: #04A2F7;
+	text-align: center;
+
+}
+
+.seccion{
+
+	display: grid;
+	grid-template-columns: 1fr;
+	align-items: center;
+
+	max-width: 500px;
+	width: 100%;
+	height: 100%;
+
+	margin: auto;
+	padding-bottom: 50px;
+
+}
+
+.seccion input {
+
+	outline: none;
+	margin-top: 15px;
+	padding: 5px 15px;
+
+	border-radius: 20px;
+
+}
+
+.seccion span {
+
+	margin-top: 20px;
+
+}
+
+.seccion span a {
+
+
+	padding: 5px 15px;
+
+	background-color: rgb(39, 166, 254);
+	color: white;
+	border-radius: 20px;
+
+	text-decoration: none;;
+
+}
+
+.botones {
+
+	display: flex;
+	justify-content: space-around;
+
+}
