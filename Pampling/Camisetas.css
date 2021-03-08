@@ -529,3 +529,39 @@ main {
 	}
 
 }
+
+@media screen and (max-width: 520px) {
+
+	.primero {
+
+		height: 300px;
+
+	}
+
+	.segundo {
+
+		height: 300px;
+
+	}
+
+	.tercero {
+
+		height: 300px;
+
+	}
+
+	.cuarto {
+
+		height: 300px;
+
+	}
+
+	.quinto {
+
+		height: 300px;
+
+	}
+	
+
+
+}
